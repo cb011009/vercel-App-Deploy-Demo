@@ -1,0 +1,80 @@
+/*.App {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+  color:#616161;
+  background-color: #a09c9c;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="text"] {
+  border: 1px solid #b3adad;
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5% !important;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #989ea3;
+}
+
+@media only screen and (max-width: 600px) {
+
+  th, td, input[type="text"] {
+    font-size: 12px;
+  }
+ 
+  .App table {
+    font-size: 14px;
+    margin-left:-16%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+table{
+  margin-left: 4px!important;
+  padding:0px;
+}
+th, td, input[type="text"] {
+  font-size: 8px;
+  padding:0px;
+}
+
+}
+.search-icon {
+
+margin-left:110%;
+margin-top:-15%;
+
+}
+
+.search{
+  width:50% !important;
+  margin-left:20%;
+  margin-top:2%;
+}*/

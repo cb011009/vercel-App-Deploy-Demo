@@ -1,0 +1,107 @@
+.RequestContainer {
+    display: flex;
+    font-size: 17px;
+    background-color: whitesmoke;
+  }
+  
+  .sidenav {
+    width: 200px; /* Set the width in pixels */
+    background: #ffffff;
+    padding: 20px;
+  }
+  
+  .requests {
+    flex: 5.5;
+    /*padding: 20px;*/
+  }
+
+  .heading-row{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin:3%;
+    padding-left:3%;
+    padding-right:3%;
+    padding-bottom:1%;
+    padding-top:1%;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    align-items: stretch;
+    
+  }
+
+  
+  .heading2{
+   background-color: rgb(255, 255, 255);
+   font-size:15px;
+   overflow-y: auto;
+  
+  }
+
+  
+
+
+  .requests .heading-row {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  } 
+
+  .heading-row>div{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width:200px;
+   
+   
+  }
+
+  .address{
+    font-size: 15px;
+    overflow: auto;
+    text-align: left;
+    
+  }
+ .heading{
+    
+    
+   border-bottom:solid grey 1px;
+    font-weight: 500;
+    height:40px;
+    margin-bottom:15px;
+    padding:1%;
+    color:rgb(53, 53, 53);
+    
+    
+   
+ }
+  .accept,.decline{
+    border-radius:50px;
+    width:100px;
+    padding:2.5%;
+    
+  }
+
+  .decline{
+      border:none;
+      background-color: rgb(252, 96, 68);
+      color:white;
+      font-weight: bold;
+  }
+
+  .accept{
+    border:none;
+    background-color: rgb(112, 112, 112);
+    color:white;
+    font-weight: bold;
+}
+  .adminButtons{
+    display: flex;
+  }
+
+
+
+
+  
+
+  
